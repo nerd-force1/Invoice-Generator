@@ -15,7 +15,7 @@
     headings
     ]{scrlttr2}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%Sprache wehcseln
-\DeclareOption{deutsch}{
+\newcommand{\deutsch}{
 	\newcommand{\PostenT}{Posten}
 	\newcommand{\AnzahlT}{Anzahl}
 	\newcommand{\EinzelpreisT}{Einzelpreis}
@@ -31,7 +31,7 @@
 	\newcommand{\GesamtbetragT}{Gesamtbetrag}
 	}
 	
-\DeclareOption{englisch}{
+\newcommand{\englisch}{
 	\newcommand{\PostenT}{Position}
 	\newcommand{\AnzahlT}{Amount}
 	\newcommand{\EinzelpreisT}{Single}
