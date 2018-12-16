@@ -1,0 +1,467 @@
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2018.12.16)  16 DEC 2018 15:16
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+(emBOinvoice.cls
+Document Class: emBOinvoice 
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlttr2.cls
+Document Class: scrlttr2 2018/03/30 v3.25 KOMA-Script document class (letter)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.sty
+Package: scrkbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbase.sty
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlfile.sty
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+)))
+Class scrlttr2 Info: File `scrsize12pt.clo' used instead of
+(scrlttr2)           file `scrsize12.clo' to setup font sizes on input line 183
+5.
+
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrsize12pt.cl
+o
+File: scrsize12pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (12pt
+)
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\typearea.sty
+Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1706.
+)
+\c@letter=\count80
+)
+Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 17.
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\DIN.lco
+File: DIN.lco 2018/03/30 v3.25 KOMA-Script letter-class-option
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/05/19 3.10 The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\ngerman.ldf"
+Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\ngermanb.ldf"
+Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count81
+\U@D=\dimen102
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\xebabel.def"))
+Package babel Info: Making " an active character on input line 125.
+)))
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count82
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count83
+\FP@xia=\count84
+\FP@xib=\count85
+\FP@xfa=\count86
+\FP@xfb=\count87
+\FP@rega=\count88
+\FP@regb=\count89
+\FP@regs=\count90
+\FP@times=\count91
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count92
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count93
+\LTcapwidth=\dimen103
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count94
+\LT@rows=\count95
+\c@LT@tables=\count96
+\c@LT@chunks=\count97
+\c@table=\count98
+\LT@p@ftn=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen104
+\lightrulewidth=\dimen105
+\cmidrulewidth=\dimen106
+\belowrulesep=\dimen107
+\belowbottomsep=\dimen108
+\aboverulesep=\dimen109
+\abovetopsep=\dimen110
+\cmidrulesep=\dimen111
+\cmidrulekern=\dimen112
+\defaultaddspace=\dimen113
+\@cmidla=\count99
+\@cmidlb=\count100
+\@aboverulesep=\dimen114
+\@belowrulesep=\dimen115
+\@thisruleclass=\count101
+\@lastruleclass=\count102
+\@thisrulewidth=\dimen116
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\xetex.def"
+File: xetex.def 2016/07/11 v4.10 LaTeX color/graphics driver for XeTeX (L3/RRM/
+JK)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks16
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+\everycr=\toks17
+\minrowclearance=\skip52
+)
+\rownum=\count103
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box30
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+)
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
+(RechnungsDatenInput.tex))
+
+LaTeX Warning: Unused global option(s):
+    [nextfoot=on,subject=off,headings].
+
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+Class scrlttr2 Info: no date found for language `american'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `australien'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `british'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `canadian'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `newzealand'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `UKenglish'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `ukenglish'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `USenglish'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `usenglish'
+(scrlttr2)           --> skipped on input line 3.
+Package scrbase Info: activating ngerman \yourrefname on input line 3.
+Package scrbase Info: activating ngerman \yourmailname on input line 3.
+Package scrbase Info: activating ngerman \myrefname on input line 3.
+Package scrbase Info: activating ngerman \customername on input line 3.
+Package scrbase Info: activating ngerman \invoicename on input line 3.
+Package scrbase Info: activating ngerman \subjectname on input line 3.
+Package scrbase Info: activating ngerman \headfromname on input line 3.
+Package scrbase Info: activating ngerman \datename on input line 3.
+Package scrbase Info: activating ngerman \phonename on input line 3.
+Package scrbase Info: activating ngerman \mobilephonename on input line 3.
+Package scrbase Info: activating ngerman \faxname on input line 3.
+Package scrbase Info: activating ngerman \emailname on input line 3.
+Package scrbase Info: activating ngerman \wwwname on input line 3.
+Package scrbase Info: activating ngerman \bankname on input line 3.
+Class scrlttr2 Info: no date found for language `german'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `austrian'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `naustrian'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `swissgerman'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `nswissgerman'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `acadian'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `canadien'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `francais'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `french'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `italian'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `spanish'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `croatian'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `dutch'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `finnish'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `norsk'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `swedish'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `polish'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `czech'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: no date found for language `slovak'
+(scrlttr2)           --> skipped on input line 3.
+Class scrlttr2 Info: trying to activate captions and date
+(scrlttr2)           of language `ngerman' on input line 3.
+Class scrlttr2 Info: used language is `ngerman'.
+(scrlttr2)           Supported languages are: `english', `UKenglish',
+(scrlttr2)           `ukenglish', `british', `american', `USenglish',
+(scrlttr2)           `usenglish', `australian`,`canadian', `newzealand',
+(scrlttr2)           `german', `ngerman', `austrian', `naustrian',
+(scrlttr2)           `swissgerman', `nswissgermsn',
+(scrlttr2)           `acadian', `canadien', `francais', `french', 
+(scrlttr2)           `dutch', `italian', `spanish', `polish',
+(scrlttr2)           `croatian', `finnish', `norsk', `swedish',
+(scrlttr2)           `czech', `slovak' on input line 3.
+
+Foldmarks: yes
+Head of first page
+File: emBO-negativ.png Graphic file (type QTm)
+<use  "emBO-negativ.png" >
+Overfull \hbox (5.21599pt too wide) in paragraph at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \vbox (19.29277pt too high) detected at line 6
+ []
+
+File: emBO-negativ.png Graphic file (type QTm)
+<use  "emBO-negativ.png" >
+Overfull \hbox (5.21599pt too wide) in paragraph at lines 6--6
+ [] [] 
+ []
+
+
+Class scrlttr2 Warning: head of first page is 19.29277pt too high.
+(scrlttr2)              You have to change `firstheadvpos'
+(scrlttr2)              or you have to define a smaller
+(scrlttr2)              head of first page using \setkomavar.
+(scrlttr2)              Because of this too high head of first page
+(scrlttr2)              you've got an overfull \vbox message on input line 6.
+
+Foot of first page
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+Address (backaddress, addressee)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6     \Start
+              
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6     \Start
+              
+? 
+Location field: empty
+Title: no
+Subject: no
+\c@zeile=\count104
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 10--10
+[]|\TU/lmr/m/n/12 Ticket Nummer1 (gültig
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 17--17
+[]|\TU/lmr/m/n/12 Ticket Nummer1 (gültig
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 23
+ []
+
+[1
+
+
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.28     \end{letter}
+                     
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]  
+ []
+
+
+Overfull \hbox (11.5571pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+! Extra }, or forgotten \endgroup.
+<argument> ...t \noindent \usekomavar {nextfoot}}}
+                                                  \@@par 
+l.28     \end{letter}
+                     
+? 
+[2] (main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4054 strings out of 427834
+ 55823 string characters out of 3152469
+ 246249 words of memory out of 3000000
+ 7956 multiletter control sequences out of 15000+200000
+ 6666 words of font info for 32 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 52i,14n,52p,252b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on main.pdf (2 pages).

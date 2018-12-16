@@ -1,0 +1,29 @@
+\documentclass{emBOinvoice}
+
+\begin{document}
+\begin{letter}{\usekomavar{empfaenger}}
+
+    \Start
+    \Tabellenkopf[2019]
+    \begin{Rechnung}
+        \Posten{test eines superlangen textes der hoffentlich umgebrochen wird}{2}{20.00}
+        \Posten{Ticket Nummer1 (gültig am xx.yy.zzzz)}{1}{450.00}
+        \Discount{Weil ich nett bin}{1}{5.00}
+        \Posten{Mehr Tickets, um alles zu testen}{3}{500.00}
+        \Posten{Sponsorign!!!!}{1}{1000.000}
+        \Discount{Deshalb etwas günstiger}{3}{150.00}
+        \Posten{Ticket Typ 4}{2}{230.00}
+        \Posten{test eines superlangen textes der hoffentlich umgebrochen wird}{2}{20.00}
+        \Posten{Ticket Nummer1 (gültig am xx.yy.zzzz)}{1}{450.00}
+        \Discount{Weil ich nett bin}{1}{5.00}
+        \Posten{Mehr Tickets, um alles zu testen}{3}{500.00}
+        \Posten{Sponsorign!!!!}{1}{1000.000}
+        \Discount{Deshalb etwas günstiger}{3}{150.00}
+        \Posten{Ticket Typ 4}{2}{230.00}
+    \end{Rechnung}
+    Die Zahlungsinformationen finden Sie am Ende der Seite.
+    Der ausgewiesene Gesamtbetrag ist zahlbar auf das dort angegebene Konto.
+    
+    \Ende
+    \end{letter}
+\end{document}
