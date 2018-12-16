@@ -14,7 +14,40 @@
     enlargefirstpage=true,
     headings
     ]{scrlttr2}
-
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%Sprache wehcseln
+\DeclareOption{deutsch}{
+	\newcommand{\PostenT}{Posten}
+	\newcommand{\AnzahlT}{Anzahl}
+	\newcommand{\EinzelpreisT}{Einzelpreis}
+	\newcommand{\GesamtpreisT}{Gesamtpreis}
+	\newcommand{\Tabellenkopf}[1][]{
+    \begin{minipage}[t]{\textwidth}
+        \large \textbf{Rechnung emBO++ #1}
+    \end{minipage}
+}
+	\newcommand{\Rechnungsnr}{Rechnungsnr:~}
+	\newcommand{\SummeT}{Summe}
+	\newcommand{\MwStT}{MwSt.~}
+	\newcommand{\GesamtbetragT}{Gesamtbetrag}
+	}
+	
+\DeclareOption{englisch}{
+	\newcommand{\PostenT}{Position}
+	\newcommand{\AnzahlT}{Amount}
+	\newcommand{\EinzelpreisT}{Single}
+	\newcommand{\GesamtpreisT}{Total}
+	\newcommand{\Tabellenkopf}[1][]{
+   		 \begin{minipage}[t]{\textwidth}
+    	    		\large \textbf{Invoice emBO++ #1}
+    		\end{minipage}
+		}
+	\newcommand{\Rechnungsnr}{Invoicenumber:~}
+	\newcommand{\SummeT}{Sum}
+	\newcommand{\MwStT}{VAT~}
+	\newcommand{\GesamtbetragT}{Total}
+	}
+	
+\ProcessOptions*\relax
 \renewcommand*{\letterpagestyle}{headings}
 
 \RequirePackage{etoolbox}
@@ -59,7 +92,7 @@
 %%%Ende setzt die Unterschrift
 \newcommand{\Start}{
     \opening{
-    		\large Rechnungsnr: \usekomavar{rechnungsnummer}
+    		\large \Rechnungsnr \usekomavar{rechnungsnummer}
     		}
 	}
 \newcommand{\Ende}{
@@ -70,11 +103,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\Tabellenkopf}[1][]{
-    \begin{minipage}[t]{\textwidth}
-        \large \textbf{Rechnung emBO++ #1}
-    \end{minipage}
-}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Setzen von Head und foot///Logo etc.
@@ -142,15 +171,15 @@
         \begin{longtable}[h!]{lp{0.3\textwidth}rrr}
         \hiderowcolors
             \toprule
-             & \textbf{Posten}    & \textbf{Anzahl}    &\textbf{Einzelpreis \waehrung}    &\textbf{Gesamtpreis \waehrung}\\
+             & \textbf{\PostenT}    & \textbf{\AnzahlT}    &\textbf{\EinzelpreisT \waehrung}    &\textbf{\GesamtpreisT \waehrung}\\
         \showrowcolors
         }{%end
         \hiderowcolors
             \bottomrule
-            \multicolumn{4}{l}{Summe}   & \GesamtsummeDarstellen \\
-            \multicolumn{4}{l}{MwSt. 19\%} & \mehrwersteuer \\ 
+            \multicolumn{4}{l}{\SummeT}   & \GesamtsummeDarstellen \\
+            \multicolumn{4}{l}{\MwStT 19\%} & \mehrwersteuer \\ 
             \bottomrule
             \bottomrule
-            \multicolumn{4}{l}{Gesamtbetrag}   & \GesamtsummeDarstellen\\
+            \multicolumn{4}{l}{\GesamtbetragT}   & \GesamtsummeDarstellen\\
         \end{longtable}
     }
