@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2018.12.16)  16 DEC 2018 16:31
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2018.12.16)  16 DEC 2018 16:00
 entering extended mode
 **./main.tex
 (main.tex
@@ -60,28 +60,10 @@ Package typearea Info: These are the values describing the layout:
 )
 \c@letter=\count80
 )
-Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 18.
+Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 17.
 (C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\DIN.lco
 File: DIN.lco 2018/03/30 v3.25 KOMA-Script letter-class-option
 )
-! Illegal parameter number in definition of \deutsch.
-<to be read again> 
-                   1
-l.32 ^^I}
-         
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \englisch.
-<to be read again> 
-                   1
-l.48 ^^I}
-         
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count81
@@ -262,8 +244,8 @@ Package graphics Info: Driver file: xetex.def on input line 99.
 LaTeX Warning: Unused global option(s):
     [nextfoot=on,subject=off,headings].
 
-(main.aux)
-\openout1 = `main.aux'.
+(testWaehrung.aux)
+\openout1 = `testWaehrung.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -488,14 +470,14 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[2] (main.aux) ) 
+[2] (testWaehrung.aux) ) 
 Here is how much of TeX's memory you used:
- 4368 strings out of 427834
- 59405 string characters out of 3152469
- 254287 words of memory out of 3000000
- 8269 multiletter control sequences out of 15000+200000
+ 4358 strings out of 427834
+ 59373 string characters out of 3152469
+ 253911 words of memory out of 3000000
+ 8259 multiletter control sequences out of 15000+200000
  6432 words of font info for 30 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  52i,14n,52p,803b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (2 pages).
+Output written on testWaehrung.pdf (2 pages).
