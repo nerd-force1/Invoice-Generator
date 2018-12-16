@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2018.12.16)  16 DEC 2018 15:17
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2018.12.16)  16 DEC 2018 15:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -240,8 +240,8 @@ Package graphics Info: Driver file: xetex.def on input line 99.
 LaTeX Warning: Unused global option(s):
     [nextfoot=on,subject=off,headings].
 
-(main.aux)
-\openout1 = `main.aux'.
+No file test.aux.
+\openout1 = `test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -339,7 +339,6 @@ Class scrlttr2 Info: used language is `ngerman'.
 (scrlttr2)           `dutch', `italian', `spanish', `polish',
 (scrlttr2)           `croatian', `finnish', `norsk', `swedish',
 (scrlttr2)           `czech', `slovak' on input line 3.
-
 Foldmarks: yes
 Head of first page
 File: emBO-negativ.png Graphic file (type QTm)
@@ -466,14 +465,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[2] (main.aux) ) 
+[2] (test.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4054 strings out of 427834
- 55823 string characters out of 3152469
+ 4052 strings out of 427834
+ 55807 string characters out of 3152469
  246249 words of memory out of 3000000
  7956 multiletter control sequences out of 15000+200000
  6666 words of font info for 32 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  52i,14n,52p,252b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (2 pages).
+Output written on test.pdf (2 pages).

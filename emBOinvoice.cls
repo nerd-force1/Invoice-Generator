@@ -17,6 +17,7 @@
 
 \renewcommand*{\letterpagestyle}{headings}
 
+\RequirePackage{etoolbox}
 \RequirePackage[ngerman]{babel}
 \RequirePackage[nomessages]{fp}
 \RequirePackage{longtable,booktabs}
@@ -34,10 +35,18 @@
 \newkomavar{empfaenger}		% enthält die Empfängerinformationen
 \newkomavar{zahlungsinfo}	% enthält alle wichtigen Zahlungsinformationen, am besten in Form einer Tabelle
 
+\providetoggle{euroWaehrung}
+
 %%%%%%%%%%%%%%Diese Datei enthält alle wichtigen und für das erstellen der Rechnung relevanten Informationen. Existiert sie nicht, kann selbst etwas in der main geschrieben werden%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \IfFileExists{RechnungsDatenInput.tex}{
-	\input{RechnungsDatenInput.tex}}
-{}
+	\input{RechnungsDatenInput.tex}
+	\iftoggle{euroWaehrung}{
+		\newcommand{\waehrung}{\,\euro{}}
+		}{
+			\newcommand{\waehrung}{\,\$ }
+		}
+	}
+	{\newcommand{\waehrung}{\euro{}}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%Bilder einfügen mit einfachen Mitteln
 \newcommand\bildEinfuegen[2][height=3\baselineskip]{%
@@ -107,25 +116,25 @@
         \FPmul\result{##1}{##2}
         \FPround\result{\result}{2}
         \FPadd\0\Gesamtsumme{\result}\global\let\Gesamtsumme\0
-        \FPprint{\EUR{\result}}
+        \FPprint{\result \waehrung}
    }
    \newcommand{\GesamtsummeDarstellen}{
        \FPround\Gesamtsumme{\Gesamtsumme}{2}
-       \FPprint{\EUR{\Gesamtsumme}}
+       \FPprint{\Gesamtsumme \waehrung}
    }
    \newcommand{\mehrwersteuer}{
         \FPmul\result{\Gesamtsumme}{0.19}
         \FPround\result{\result}{2}
         \FPadd\0\Gesamtsumme{\result}\global\let\Gesamtsumme\0
-        \FPprint{\EUR{\result}}
+        \FPprint{\result \waehrung}
    }
 
    \newcommand{\Posten}[3]{%
-        \stepcounter{zeile} \thezeile  & ##1& ##2& \EUR{##3}& \rechnungsbetrag{##2}{##3}\\ 
+        \stepcounter{zeile} \thezeile  & ##1& ##2& ##3\waehrung & \rechnungsbetrag{##2}{##3}\\ 
     }
     
     \newcommand{\Discount}[3]{%
-        \stepcounter{zeile} \thezeile  & ##1& ##2& \EUR{-##3}& \rechnungsbetrag{##2}{-##3}\\
+        \stepcounter{zeile} \thezeile  & ##1& ##2& -##3\waehrung & \rechnungsbetrag{##2}{-##3}\\
     }
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %Die Rechnungstabelle erzeugen
@@ -133,7 +142,7 @@
         \begin{longtable}[h!]{lp{0.3\textwidth}rrr}
         \hiderowcolors
             \toprule
-             & \textbf{Posten}    & \textbf{Anzahl}    &\textbf{Einzelpreis \euro{}}    &\textbf{Gesamtpreis \euro{}}\\
+             & \textbf{Posten}    & \textbf{Anzahl}    &\textbf{Einzelpreis \waehrung}    &\textbf{Gesamtpreis \waehrung}\\
         \showrowcolors
         }{%end
         \hiderowcolors
