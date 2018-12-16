@@ -26,10 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    latexadapter.cpp \
+    emboinvoicedata.cpp \
+    slothandler.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    latexadapter.h \
+    emboinvoicedata.h \
+    slothandler.h
 
 FORMS += \
         mainwindow.ui

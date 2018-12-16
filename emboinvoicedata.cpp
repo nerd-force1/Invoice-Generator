@@ -1,6 +1,9 @@
 #include "emboinvoicedata.h"
 
-emBOInvoiceData::emBOInvoiceData()
-{
-
+namespace emBO {
+    emBOInvoiceData::emBOInvoiceData()
+    {
+    }
 }
+
+

@@ -12,6 +12,8 @@ public:
 signals:
 
 public slots:
+    void generateClicked();
+    void addPositionsClicked();
 };
 
 #endif // SLOTHANDLER_H
